@@ -1,0 +1,43 @@
+defmodule Homework do
+
+ def first_task() do
+
+ first_name="Alice"
+ last_name="Addison"
+ tuple={first_name,last_name}
+ ={"Alice","Addison"}
+
+
+ age=32
+ sex="f"
+ tuple={age,sex}
+ ={32,"f"}
+
+
+ x=200
+ string="example data"
+ atom=:an_atom
+ tuple={y,string,atom}//error
+ tuple={x,string,atom}
+ ={200,"example data",:an_atom}
+
+
+ true=true
+ false=!true
+ 2=1+1
+ 4.0=2/ ->4.0=8/2
+ 6=2*3
+ 3>1
+  
+ "hello world"="hello"<>"world"
+ 
+ tuple=[1,2] ++ [:a,"b"]
+ [1,2,:a,"b"]
+ 
+
+ list=[1,2,3] -- [3]
+ [1,2]
+
+end
+end
+
